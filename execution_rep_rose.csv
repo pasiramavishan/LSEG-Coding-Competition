@@ -1,0 +1,16 @@
+execution_rep1.csv
+Order ID,Client Order ID,Instrument,Side,Exec Status,Quantity,Price,Reason,Transaction time
+ord1,aa001,Rose,1,New,100,55.55,Accepted,2024.11.25-01.45.57-404
+ord2,aa002,Rose,1,New,100,65,Accepted,2024.11.25-01.45.57-414
+ord3,aa003,Rose,2,PFill,100,65,Accepted,2024.11.25-01.45.57-414
+ord2,aa002,Rose,1,PFill,100,65,Accepted,2024.11.25-01.45.57-414
+ord3,aa003,Rose,2,PFill,100,55.55,Accepted,2024.11.25-01.45.57-404
+ord1,aa001,Rose,1,PFill,100,55.55,Accepted,2024.11.25-01.45.57-404
+ord4,aa004,Rose,1,Rejected,102,2,Invalid size,2024.11.25-01.45.57-434
+ord5,aa013,Rose,2,New,300,2,Accepted,2024.11.25-01.45.57-444
+ord6,aa014,Rose,1,PFill,100,1,Accepted,2024.11.25-01.45.57-424
+ord3,aa003,Rose,2,PFill,100,1,Accepted,2024.11.25-01.45.57-424
+ord6,aa014,Rose,1,PFill,50,2,Accepted,2024.11.25-01.45.57-444
+ord5,aa013,Rose,2,PFill,50,2,Accepted,2024.11.25-01.45.57-444
+ord7,aa15,Rose,1,PFill,0,2,Accepted,2024.11.25-01.45.57-444
+ord5,aa013,Rose,2,Fill,0,2,Accepted,2024.11.25-01.45.57-444

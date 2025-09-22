@@ -1,0 +1,14 @@
+execution_rep.csv
+Order ID,Client Order ID,Instrument,Side,Exec Status,Quantity,Price,Reason,Transaction time
+ord1,aa001,Rose,1,New,100,100,Accepted,2024.11.25-11.27.44-630
+ord2,aa002,Rose,1,New,300,150,Accepted,2024.11.25-11.27.44-630
+ord3,aa003,Rose,2,Fill,50,150,Accepted,2024.11.25-11.27.44-630
+ord2,aa002,Rose,1,PFill,50,150,Accepted,2024.11.25-11.27.44-630
+ord4,aa004,Rose,2,Fill,50,150,Accepted,2024.11.25-11.27.44-630
+ord2,aa002,Rose,1,PFill,50,150,Accepted,2024.11.25-11.27.44-630
+ord5,aa005,Rose,2,Fill,200,150,Accepted,2024.11.25-11.27.44-630
+ord2,aa002,Rose,1,Fill,200,150,Accepted,2024.11.25-11.27.44-630
+ord6,aa006,Rose,2,Fill,50,100,Accepted,2024.11.25-11.27.44-630
+ord1,aa001,Rose,1,PFill,50,100,Accepted,2024.11.25-11.27.44-630
+ord7,aa007,Rose,2,Fill,50,100,Accepted,2024.11.25-11.27.44-630
+ord1,aa001,Rose,1,Fill,50,100,Accepted,2024.11.25-11.27.44-630
